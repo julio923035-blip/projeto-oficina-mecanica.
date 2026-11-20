@@ -129,3 +129,35 @@ Este projeto foi desenvolvido com finalidade acadêmica e como prática de apren
 ---
 
  Projeto desenvolvido para fins de estudo e aprendizado.
+ 
+ Observações e Melhorias Futuras
+
+Durante o desenvolvimento e a análise do projeto, foram identificados alguns pontos que ainda podem ser aprimorados.
+
+Embora o banco de dados já apresente uma estrutura funcional, com tabelas relacionadas, inserção de dados, consultas SQL e controle automatizado de estoque, ainda existem funcionalidades que precisam de complementação e validação.
+
+### 🔍 Pontos a melhorar
+
+- Revisar e aprimorar algumas funcionalidades do banco de dados.
+- Realizar testes mais completos para verificar a integridade e o funcionamento das operações.
+- Desenvolver exemplos práticos de execução dos TRIGGERS.
+- Validar o comportamento dos gatilhos em diferentes situações, como inserção, atualização e exclusão de peças.
+- Verificar se o controle automático de estoque está funcionando corretamente em todos os cenários.
+
+### ⚙️ Testes pendentes dos TRIGGERS
+
+O projeto possui cinco TRIGGERS responsáveis pelo controle automático do estoque de peças. Entretanto, ainda é necessário desenvolver e executar exemplos práticos para demonstrar seu funcionamento.
+
+Os testes futuros deverão verificar:
+
+1. **BEFORE INSERT:** verificar se o sistema impede a utilização de peças quando o estoque é insuficiente.
+2. **AFTER INSERT:** verificar se a quantidade em estoque diminui após a utilização de uma peça.
+3. **BEFORE UPDATE:** verificar se o sistema valida alterações na quantidade de peças utilizadas.
+4. **AFTER UPDATE:** verificar se o estoque é atualizado corretamente após uma alteração.
+5. **AFTER DELETE:** verificar se as peças removidas de uma ordem de serviço retornam ao estoque.
+
+### 🚧 Situação do projeto
+
+O projeto possui sua estrutura principal desenvolvida, mas permanece aberto a melhorias, testes e aperfeiçoamentos.
+
+A proposta é continuar evoluindo o banco de dados, garantindo maior confiabilidade, organização e consistência das informações.
